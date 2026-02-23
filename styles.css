@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-size: xxx-large;
+    color: brown;
+}
+
+body{
+    background-color: bisque;
+}
+
+#cover{
+    display: flex;
+    justify-content: center;
+
+}
+
+.image{
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+#congrats{
+    font-family: fantasy;
+    font-size: xx-large;
+    color: brown;
+}
+
+button{
+    background-color: black;
+    color: burlywood;
+    width: 30vw;
+    height: 5vw;
+}
+
+.question{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: brown;
+}

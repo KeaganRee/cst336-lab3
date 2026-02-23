@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>ATLA Quiz</title>
+    <script src="https://unpkg.com/underscore@1.13.7/underscore-umd-min.js"></script>
+
+    
+</head>
+<body>
+    
+    <h1>AVATAR THE LAST AIR BENDER: QUIZ</h1>
+
+    <figure id="cover">
+        <img src="img/coverart.png">
+    </figure>
+
+    <span class="question">1. Which nation attacked?</span>
+    <br>
+    <div id="q1ChoicesDiv"></div>
+    <div>
+        <img class="image" id="image1C" src="img/check.png">
+        <img class="image" id="image1X" src="img/redx.png">
+    </div>
+
+    <br>
+
+    <span class="question">2. Who is blind?</span>
+    <br>
+    <input type="text" id="q2">
+    <div>
+        <img class="image" id="image2C" src="img/check.png">
+        <img class="image" id="image2X" src="img/redx.png">
+    </div>
+    <br>
+
+    <span class="question">3. Who is not a bender?</span>
+    <br>
+    <select id="q3">
+        <option value = "Aang">Aang</option>
+        <option value = "Toph">Toph</option>
+        <option value = "Sokka">Sokka</option>
+        <option value = "Katara">Katara</option>
+    </select>
+    <div>
+        <img class="image" id="image3C" src="img/check.png">
+        <img class="image" id="image3X" src="img/redx.png">
+    </div>
+
+    <br>
+
+    <span class="question">4. How many nations are there?</span>
+    <br>
+    <input type="number" id="q4" min="1" max="5" step="1">
+    <br>
+    <div>
+        <img class="image" id="image4C" src="img/check.png">
+        <img class="image" id="image4X" src="img/redx.png">
+    </div>
+
+    <br>
+
+    <span class="question">5. Who is a fire bender?</span>
+    <br>
+    <label><input type="checkbox" class="checks" id="zuko" value = "zuko">Zuko</label>
+    <label><input type="checkbox" class="checks" id="iroh" value = "iroh">Uncle Iroh</label>
+    <label><input type="checkbox" class="checks" id="azula" value = "azula">Azula</label>
+    <label><input type="checkbox" class="checks" id="tenzin" value = "tenzin">Tenzin</label>
+    <br>
+    <div>
+        <img class="image" id="image5C" src="img/check.png">
+        <img class="image" id="image5X" src="img/redx.png">
+    </div>
+
+    <br>
+
+    <button>Submit Quiz</button>
+    <br>
+    <div id="congrats"></div>
+ 
+
+<script src="js/script.js"></script>
+</body>
+</html> 
