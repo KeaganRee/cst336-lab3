@@ -5,6 +5,12 @@ h1{
     color: brown;
 }
 
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+}
+
 body{
     background-color: bisque;
 }
