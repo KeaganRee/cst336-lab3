@@ -107,7 +107,7 @@ function gradeQuiz(){
 
 
 
-    if(score >= 16){
+    if(score >= 80){
         document.querySelector("#congrats").textContent = "Congratulations! You scored " + score + "%!"
     }
     else{
